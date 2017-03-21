@@ -19,9 +19,9 @@ var HomeView = function(store){
             } else {
                 console.log('New iScroll');
                 self.iscroll = new iScroll($('.scroll', self.el)[0], {hScrollbar: false, vScrollbar: false});
-                
+
             }
-    });
+        });
     };
 
     this.initialize();
